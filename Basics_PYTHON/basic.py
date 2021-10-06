@@ -56,4 +56,16 @@ print(int(3.44))
 print(float(3))
 i = 10
 print(i < 5)  # BOOLEAN DATATYPE
-print(i==10)
+print(i == 10)
+
+# TAKE INPUT FROM USER
+# SYNTAX==> VARIABLE_NAME = DATA_TYPE(input("STATEMENT"))
+# YOU CAN MENTION THE DATA TYPE IF IT REQUIRES
+# PRINT("STATEMENT", VARIABLE_NAME)
+name = input("Enter your name:")
+print("Name of user is : ", name)
+
+# ADDING TWO NUMBER
+num1 = int(input("Enter value 1:"))
+num2 = int(input("Enter value 2:"))
+print("sum of two number", num1+num2)

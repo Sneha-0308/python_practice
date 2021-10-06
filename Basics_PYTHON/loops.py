@@ -8,15 +8,15 @@ for i in range(1, 10):
 # print sum of first n natural number
 n = 5
 sum = 0
-for j in range(1, n+1):
-    sum = sum+j
+for j in range(1, n + 1):
+    sum = sum + j
 print(sum)
 
 # multiplication table
 
 value = 2
 for i in range(1, 11):
-    res = value*i
+    res = value * i
     print(f"{value}*{i}={res}")
 
 # here we will use another way to print
@@ -39,3 +39,12 @@ for i in range(0, 11, 2):
 # HOW TO PRINT NUMBERS IN REVERSE
 for i in range(10, 0, -1):
     print(i)
+
+# WHILE LOOP SYNTAX
+i = 0         # INITIALIZATION
+while i < 5:  # CONDITION+
+    print(i)
+    i = i + 1  # INCREMENT
+
+# DO WHILE LOOP
+# PYTHON DOSE not have do while loop
